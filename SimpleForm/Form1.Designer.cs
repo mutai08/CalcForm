@@ -76,7 +76,7 @@ namespace SimpleForm
             this.txtNumber2.Name = "txtNumber2";
             this.txtNumber2.Size = new System.Drawing.Size(137, 26);
             this.txtNumber2.TabIndex = 3;
-            this.txtNumber2.Text = "7";
+            this.txtNumber2.TextChanged += new System.EventHandler(this.txtNumber2_TextChanged);
             // 
             // btnSum
             // 

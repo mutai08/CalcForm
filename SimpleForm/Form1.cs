@@ -40,5 +40,10 @@ namespace SimpleForm
         {
 
         }
+
+        private void txtNumber2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
